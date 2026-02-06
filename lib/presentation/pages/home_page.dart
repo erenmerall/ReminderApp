@@ -44,15 +44,6 @@ class _HomePageState extends State<HomePage> {
             onPressed: () => setState(() => index = 0),
           ),
         ),
-        // actions: [
-        //   Padding(
-        //     padding: const EdgeInsets.symmetric(horizontal: 8),
-        //     child: IconButton(
-        //       icon: const Icon(Icons.home),
-        //       onPressed: () => setState(() => index = 0),
-        //     ),
-        //   ),
-        // ],
       ),
       body: pages[index],
 
