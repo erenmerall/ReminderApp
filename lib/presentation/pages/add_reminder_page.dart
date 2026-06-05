@@ -67,6 +67,7 @@ class _AddReminderPageState extends State<AddReminderPage> {
             ),
             const SizedBox(height: 10),
             CategoriesChips(),
+            
 
             const SizedBox(height: 30),
 

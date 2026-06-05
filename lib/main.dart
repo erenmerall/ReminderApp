@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'core/theme/app_theme.dart';
 import 'presentation/pages/home_page.dart';
+import 'presentation/providers/category_provider.dart';
 import 'presentation/providers/reminder_provider.dart';
 import 'data/services/notification_service.dart';
 
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
             return provider;
           },
         ),
+        // ChangeNotifierProvider(create: (_) => CategoryProvider()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
